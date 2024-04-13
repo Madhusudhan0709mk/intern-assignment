@@ -1,0 +1,20 @@
+/* Main.css */
+
+/* Heart icon styles */
+.heart-icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.heart-icon::before {
+  content: '❤';
+}
+
+.heart-red::before {
+  color: red; 
+}
+
+.heart-white::before {
+  color: #fff; 
+}
+
